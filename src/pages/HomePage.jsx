@@ -9,8 +9,6 @@ const HomePage = () => {
     fetchTrending().then(r => setFilms(r));
   }, []);
 
-  // console.log('HomePage  films:', films);
-
   return (
     <main>
       <h2>Trandind today</h2>
